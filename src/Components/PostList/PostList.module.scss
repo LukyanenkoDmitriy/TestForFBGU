@@ -1,0 +1,24 @@
+.posts{
+  margin-top: 30px;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+
+  }
+  .pagination{
+
+    button{
+      margin: 5px;
+      padding: 10px;
+    }
+
+  }
+}
